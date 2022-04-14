@@ -29,19 +29,19 @@ console.log(seven);
 console.log(eight);
 console.log(nine);
 
-// alert(hello);
-// alert(owu);
-// alert(com);
-// alert(ua);
-// alert(first);
-// alert(second);
-// alert(third);
-// alert(four);
-// alert(five);
-// alert(six);
-// alert(seven);
-// alert(eight);
-// alert(nine);
+alert(hello);
+alert(owu);
+alert(com);
+alert(ua);
+alert(first);
+alert(second);
+alert(third);
+alert(four);
+alert(five);
+alert(six);
+alert(seven);
+alert(eight);
+alert(nine);
 
 document.write(`<div>${hello}</div>`);
 document.write(`<div>${owu}</div>`);
@@ -97,13 +97,13 @@ console.log(myName);
 
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
 
-// const name = prompt('Enter your name');
-// const name1 = prompt('Enter your middleName');
-// const name2 = prompt('Enter your age');
+const name = prompt('Enter your name');
+const name1 = prompt('Enter your middleName');
+const name2 = prompt('Enter your age');
 
-// console.log(name);
-// console.log(name1);
-// console.log(name2);
+console.log(name);
+console.log(name1);
+console.log(name2);
 
 // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
 //     let a = 100; let b = '100'; let c = true;
