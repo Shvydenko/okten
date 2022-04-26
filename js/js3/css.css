@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-card {
+    background: aquamarine;
+    display: flex;
+}
+
+.product-image{
+    box-sizing: border-box;
+}
+
+.product-title{
+    color: blue;
+}

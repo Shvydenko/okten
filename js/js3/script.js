@@ -78,7 +78,6 @@
 //         image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
 //     },
 // ];
-//
 // ШАБЛОН
 // <div class="product-card">
 //     <h3 class="product-title">TITLE. Price - PRICE</h3>
@@ -86,6 +85,10 @@
 // </div>
 // Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту
 //
+// for (let product of products){
+//     document.write(`<div class="product-card">
+//     <h3 class="product-title">${product.title}. Price - ${product.price}</h3>
+// <img src=${product.image} alt="" class="product-image"></div>`)}
 //
 //
 // --------------------
@@ -107,3 +110,19 @@
 //     - користувачів зі статусом true
 // - користувачів зі статусом false
 // - користувачів які старші за 30 років
+
+// for (let i=0; i<users.length; i++){
+//     if(users[i].status){
+//         console.log(users[i])
+//     }
+//     }
+// for (let i=0; i<users.length; i++){
+//     if(!users[i].status){
+//         console.log(users[i])
+//     }
+// }
+// for (let i=0; i<users.length; i++){
+//     if(users[i].age > 30){
+//         console.log(users[i])
+//     }
+// }
