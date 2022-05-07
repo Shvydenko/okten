@@ -100,55 +100,55 @@
 // - всі буби
 // - всі трефи від 9 та більше
 
-let deckOfCards = [
-    {value: 6, cardSuit: 'spade', color: 'black'},
-    {value: 6, cardSuit: 'diamond', color: 'red'},
-    {value: 6, cardSuit: 'heart', color: 'red'},
-    {value: 6, cardSuit: 'clubs', color: 'black'},
-
-    {value: 7, cardSuit: 'spade', color: 'black'},
-    {value: 7, cardSuit: 'diamond', color: 'red'},
-    {value: 7, cardSuit: 'heart', color: 'red'},
-    {value: 7, cardSuit: 'clubs', color: 'black'},
-
-    {value: 8, cardSuit: 'spade', color: 'black'},
-    {value: 8, cardSuit: 'diamond', color: 'red'},
-    {value: 8, cardSuit: 'heart', color: 'red'},
-    {value: 8, cardSuit: 'clubs', color: 'black'},
-
-    {value: 9, cardSuit: 'spade', color: 'black'},
-    {value: 9, cardSuit: 'diamond', color: 'red'},
-    {value: 9, cardSuit: 'heart', color: 'red'},
-    {value: 9, cardSuit: 'clubs', color: 'black'},
-
-    {value: 10, cardSuit: 'spade', color: 'black'},
-    {value: 10, cardSuit: 'diamond', color: 'red'},
-    {value: 10, cardSuit: 'heart', color: 'red'},
-    {value: 10, cardSuit: 'clubs', color: 'black'},
-
-    {value: 'ace', cardSuit: 'spade', color: 'black'},
-    {value: 'ace', cardSuit: 'diamond', color: 'red'},
-    {value: 'ace', cardSuit: 'heart', color: 'red'},
-    {value: 'ace', cardSuit: 'clubs', color: 'black'},
-
-    {value: 'jack', cardSuit: 'spade', color: 'black'},
-    {value: 'jack', cardSuit: 'diamond', color: 'red'},
-    {value: 'jack', cardSuit: 'heart', color: 'red'},
-    {value: 'jack', cardSuit: 'clubs', color: 'black'},
-
-    {value: 'queen', cardSuit: 'spade', color: 'black'},
-    {value: 'queen', cardSuit: 'diamond', color: 'red'},
-    {value: 'queen', cardSuit: 'heart', color: 'red'},
-    {value: 'queen', cardSuit: 'clubs', color: 'black'},
-
-    {value: 'king', cardSuit: 'spade', color: 'black'},
-    {value: 'king', cardSuit: 'diamond', color: 'red'},
-    {value: 'king', cardSuit: 'heart', color: 'red'},
-    {value: 'king', cardSuit: 'clubs', color: 'black'},
-
-    {value: 'joker', color: 'black'},
-    {value: 'joker', color: 'red'},
-]
+// let deckOfCards = [
+//     {value: 6, cardSuit: 'spade', color: 'black'},
+//     {value: 6, cardSuit: 'diamond', color: 'red'},
+//     {value: 6, cardSuit: 'heart', color: 'red'},
+//     {value: 6, cardSuit: 'clubs', color: 'black'},
+//
+//     {value: 7, cardSuit: 'spade', color: 'black'},
+//     {value: 7, cardSuit: 'diamond', color: 'red'},
+//     {value: 7, cardSuit: 'heart', color: 'red'},
+//     {value: 7, cardSuit: 'clubs', color: 'black'},
+//
+//     {value: 8, cardSuit: 'spade', color: 'black'},
+//     {value: 8, cardSuit: 'diamond', color: 'red'},
+//     {value: 8, cardSuit: 'heart', color: 'red'},
+//     {value: 8, cardSuit: 'clubs', color: 'black'},
+//
+//     {value: 9, cardSuit: 'spade', color: 'black'},
+//     {value: 9, cardSuit: 'diamond', color: 'red'},
+//     {value: 9, cardSuit: 'heart', color: 'red'},
+//     {value: 9, cardSuit: 'clubs', color: 'black'},
+//
+//     {value: 10, cardSuit: 'spade', color: 'black'},
+//     {value: 10, cardSuit: 'diamond', color: 'red'},
+//     {value: 10, cardSuit: 'heart', color: 'red'},
+//     {value: 10, cardSuit: 'clubs', color: 'black'},
+//
+//     {value: 'ace', cardSuit: 'spade', color: 'black'},
+//     {value: 'ace', cardSuit: 'diamond', color: 'red'},
+//     {value: 'ace', cardSuit: 'heart', color: 'red'},
+//     {value: 'ace', cardSuit: 'clubs', color: 'black'},
+//
+//     {value: 'jack', cardSuit: 'spade', color: 'black'},
+//     {value: 'jack', cardSuit: 'diamond', color: 'red'},
+//     {value: 'jack', cardSuit: 'heart', color: 'red'},
+//     {value: 'jack', cardSuit: 'clubs', color: 'black'},
+//
+//     {value: 'queen', cardSuit: 'spade', color: 'black'},
+//     {value: 'queen', cardSuit: 'diamond', color: 'red'},
+//     {value: 'queen', cardSuit: 'heart', color: 'red'},
+//     {value: 'queen', cardSuit: 'clubs', color: 'black'},
+//
+//     {value: 'king', cardSuit: 'spade', color: 'black'},
+//     {value: 'king', cardSuit: 'diamond', color: 'red'},
+//     {value: 'king', cardSuit: 'heart', color: 'red'},
+//     {value: 'king', cardSuit: 'clubs', color: 'black'},
+//
+//     {value: 'joker', color: 'black'},
+//     {value: 'joker', color: 'red'},
+// ]
 
 
 // описати колоду карт
