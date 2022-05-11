@@ -167,14 +167,17 @@
 //     let s =  array.reduce((accum, x) => {
 //         if (x.value === 'ace' && x.cardSuit === 'spade') {
 //             accum.spadeBlackAce.push(x)
-//         } else if (x.value === 6) {
+//         }
+//         if (x.value === 6) {
 //             accum.six.push(x)
-//         } else if (x.cardSuit === 'heart') {
+//         }
+//         if (x.cardSuit === 'heart') {
 //             accum.heart.push(x)
-//         } else if (x.cardSuit === 'diamond') {
+//         }
+//         if (x.cardSuit === 'diamond') {
 //             accum.diamonds.push(x)
 //         }
-//         else if (x.cardSuit === 'clubs' && x.value !== 6 && x.value !== 7 && x.value !== 8) {
+//         if (x.cardSuit === 'clubs' && x.value !== 6 && x.value !== 7 && x.value !== 8) {
 //             accum.clubs.push(x)
 //         }
 //         return accum
